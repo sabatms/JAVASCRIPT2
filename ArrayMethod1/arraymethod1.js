@@ -106,3 +106,8 @@ console.log(citrus);
 const fruits6 = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 const citrus1 = fruits.slice(1,3);
 console.log(citrus1);
+
+const Numbers = ["16","17","18","19"];
+
+const result8 = Numbers.slice(1,3);
+console.log(result8);  
