@@ -25,12 +25,3 @@ function Three( item){
 }
 console.log(item2);
 //
-
-const prodocts = [
-          {
-                    name:"saba",
-                    age:17,
-                    country:"iran",
-          },
-        
-];
