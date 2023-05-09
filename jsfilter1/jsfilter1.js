@@ -32,9 +32,9 @@ const item3 = numbers2
 .map(obj => obj.value);
 
 console.log(item3);
-//
 
-const text1 = "hello world";
+
+/*const text1 = "hello world";
 
 const newArr =text1.map(Four);
 function Four(Number){
@@ -44,3 +44,50 @@ function Four(Number){
 const result1 = text1.concat("",newArr);
 
 console.log(result1);
+*/
+
+const users =[
+   {
+          Firstname:"ali",
+          Lastname:"maktoum",
+          Age:24,
+          address:{
+           street: '123 Main street',
+           city :'Dubai',
+          }
+   },
+   {
+          Firstname: 'Hamoon',
+          Lastname: 'Abedi',
+          Age: 33,
+          address:{
+           street:'123 Main Street',
+           city: 'Los Angeles',
+          }
+   },
+   {
+          Firstname:'Maral',
+          Lastname:'adloo',
+          Age: 44,
+          address:{
+           street:'123 Main Street',
+           city:'NewYork',
+          }
+   },
+]
+
+const user= users.map(item =>{
+          return item.Firstname+" "+item.Lastname;
+});
+const age = users.map(item =>{
+          return item.Age
+});
+const address = users.map(item =>{
+          return item.address.city+" "+item.address.street;
+})
+console.log(user);
+console.log(typeof user);
+console.log(age);
+console.log(typeof age);
+console.log(address);
+console.log(typeof address);
