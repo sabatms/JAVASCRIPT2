@@ -51,4 +51,19 @@ const fruits ={
 
  console.log(fruits.fullName());
 
- 
+ let carName1 = "BMW 730li";
+ let carName2 = "Porshe";
+
+ document.getElementById("demo").innerHTML = carName1+ " "+carName2;
+
+let answer1 = "its a aliright";
+let answer2 = "her name is sara";
+let answer3 = "her name is soha";
+
+document.getElementById('demo').innerHTML = answer1+ "<br>"+ answer2+ "<br>"+ answer3
+
+let fullName1 = "saba tahmasebi";
+document.getElementById('saba').innerHTML = text.length;
+
+document.getElementById("demo").innerHTML =
+"Hello Dolly!";
